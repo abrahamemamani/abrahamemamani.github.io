@@ -1,0 +1,161 @@
+:root{
+    --first-font    : 'Niramit', sans-serif;
+    --second-font   : 'Exo 2', sans-serif;
+    --first-color   : #FB5D12;
+    --second-color  : #E84855;
+    --third-color   : #0D66D0;
+    --light-grey    : #F6F6F6;
+    --dark-grey     : #6E6E6E;
+    --light-blue    : #007bff;
+    
+    --breakpoint-xs : 0;
+    --breakpoint-sm : 576px;
+    --breakpoint-md : 768px;
+    --breakpoint-lg : 992px;
+    --breakpoint-xl : 1200px;
+}
+
+/* Colors */
+$first-color   : #FB5D12;
+$second-color  : #E84855;
+$third-color   : #0D66D0;
+$light-grey    : #F6F6F6;
+$dark-grey     : #6E6E6E;
+$light-blue    : #007bff;
+
+/* Breakpoints */
+$breakpoint-xs : 0;
+$breakpoint-sm : 576px;
+$breakpoint-md : 768px;
+$breakpoint-lg : 992px;
+$breakpoint-xl : 1200px;
+
+@mixin query ($breakpoint){
+    @if $breakpoint == phone{
+        @media screen and(min-width: $breakpoint-sm){
+            @content
+        }
+    }
+    @if $breakpoint == tablet{
+        @media screen and(min-width: $breakpoint-md){
+            @content
+        }
+    }
+    @if $breakpoint == desktop{
+        @media screen and(min-width: $breakpoint-lg){
+            @content
+        }
+    }
+    @if $breakpoint == screen{
+        @media screen and(min-width: $breakpoint-xl){
+            @content
+        }
+    }
+}
+
+.app-title{
+    position: relative;
+    margin-bottom: 70px;
+    font-size: 2rem;
+    text: {
+        align: center;
+        transform: uppercase;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        width: 5%;
+        height: 1px;
+        border-bottom: 6px dotted var(--color);
+        transform: translateX(-50%);
+    }
+}
+.space-section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.t-align-center{
+    text-align: center;
+}
+.t-align-right{
+    text-align: right;
+}
+.t-align-left{
+    text-align: left;
+}
+
+
+.first-color{
+    --color : var(--first-color);
+}
+.second-color{
+    --color : var(--second-color);
+}
+.third-color{
+    --color : var(--third-color);
+}
+
+.container{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    @include query(phone){
+        max-width: 540px;
+    }
+    @include query(tablet){
+        max-width: 720px;
+    }
+    @include query(desktop){
+        max-width: 960px;
+    }
+    @include query(screen){
+        max-width: 1140px;
+    }
+}
+
+.d-block{
+    display: block;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.f-column{
+    flex-direction: column;
+}
+.g-col-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    @include query(tablet){
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+    }
+}
+.g-col-4{
+    display: grid;
+    grid-template-columns: 1fr;
+    @include query(phone){
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    @include query(desktop){
+        grid-template-columns: 1fr 1fr 1fr .5fr;
+        grid-gap: 5em;
+    }
+}

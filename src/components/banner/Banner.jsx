@@ -12,7 +12,7 @@ class Banner extends Component{
                     <img src={Profile} className="app-banner__img" alt="Imágen de perfil"/>
                     <h1 className="app-banner__title">
                         $_Abraham
-                        <span className="app-banner__title--color">_Mamani;</span>
+                        <span className="app-banner__title--color"> Mamani;</span>
                     </h1>
 
                     <div className="app-banner__info">

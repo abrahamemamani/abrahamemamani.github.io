@@ -1,7 +1,18 @@
+$light-grey    : #F6F6F6;
 .m-timeline{
     --date: '';
     border-left: 1px solid darken($light-grey, 15%);
     padding: 20px 0 20px 25px;
+    &__date{
+        //content: var(--date);
+        position: absolute;
+        bottom: -17px;
+        left: 0;
+        font: {
+            size: .8rem;
+        }
+        color: var(--dark-grey);
+    }
     &__item{
         list-style-type: none;
         &:nth-child(2){
@@ -12,7 +23,6 @@
         }
     }
     &__sub-title{
-        position: relative;
         color: var(--color);
         margin-bottom: 1em;
     }
@@ -31,16 +41,16 @@
             border-radius: 50%;
             transform: translateY(-50%);
         }
-        &::after{
-            content: var(--date);
-            position: absolute;
-            bottom: -17px;
-            left: 0;
-            font: {
-                size: .8rem;
-            }
-            color: var(--dark-grey);
-        }
+        // &::after{
+        //     content: var(--date);
+        //     position: absolute;
+        //     bottom: -17px;
+        //     left: 0;
+        //     font: {
+        //         size: .8rem;
+        //     }
+        //     color: var(--dark-grey);
+        // }
     }
     &__list{
         list-style-type: none;

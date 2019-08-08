@@ -20,7 +20,7 @@ class Banner extends Component{
                             Desarrollador Frontend
                         </span>
                         <span className="d-block">
-                            HTML, CSS, Bootstrap, JavaScript (jQuery, Vue.js)
+                            HTML, CSS, Bootstrap, JavaScript (jQuery, ReactJS)
                         </span>
                         <span className="d-block">
                             PHP (Laravel), MySQL, Git/GitHub

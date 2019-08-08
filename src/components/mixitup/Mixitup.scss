@@ -1,3 +1,33 @@
+/* Breakpoints */
+$breakpoint-xs : 0;
+$breakpoint-sm : 576px;
+$breakpoint-md : 768px;
+$breakpoint-lg : 992px;
+$breakpoint-xl : 1200px;
+
+@mixin query ($breakpoint){
+    @if $breakpoint == phone{
+        @media screen and(min-width: $breakpoint-sm){
+            @content
+        }
+    }
+    @if $breakpoint == tablet{
+        @media screen and(min-width: $breakpoint-md){
+            @content
+        }
+    }
+    @if $breakpoint == desktop{
+        @media screen and(min-width: $breakpoint-lg){
+            @content
+        }
+    }
+    @if $breakpoint == screen{
+        @media screen and(min-width: $breakpoint-xl){
+            @content
+        }
+    }
+}
+
 .mixitup {
     padding: 1rem;
 }

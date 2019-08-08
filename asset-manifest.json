@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01c69d60.chunk.css",
+    "main.js": "/static/js/main.df75d7a9.chunk.js",
+    "main.js.map": "/static/js/main.df75d7a9.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
+    "static/js/2.044fa317.chunk.js": "/static/js/2.044fa317.chunk.js",
+    "static/js/2.044fa317.chunk.js.map": "/static/js/2.044fa317.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2f2451680c5d999e2990a8d8a30e9579.js": "/precache-manifest.2f2451680c5d999e2990a8d8a30e9579.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.01c69d60.chunk.css.map": "/static/css/main.01c69d60.chunk.css.map",
+    "static/media/1.jpg": "/static/media/1.e8ccd876.jpg",
+    "static/media/2.jpg": "/static/media/2.d9c49680.jpg",
+    "static/media/3.jpg": "/static/media/3.22a44b80.jpg",
+    "static/media/4.jpg": "/static/media/4.50a6d15f.jpg",
+    "static/media/CV Abraham Mamani - Frontend Developer.pdf": "/static/media/CV Abraham Mamani - Frontend Developer.bca94d2d.pdf",
+    "static/media/about-me.png": "/static/media/about-me.cf7109f7.png",
+    "static/media/Banner.scss": "/static/media/portafolio-banner.dfc6bd96.jpg",
+    "static/media/profile.jpg": "/static/media/profile.2766256e.jpg"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.47f7e764.chunk.css",
-    "main.js": "/static/js/main.255cb1eb.chunk.js",
-    "main.js.map": "/static/js/main.255cb1eb.chunk.js.map",
+    "main.js": "/static/js/main.08b1a37d.chunk.js",
+    "main.js.map": "/static/js/main.08b1a37d.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
-    "static/js/2.14cce6d8.chunk.js": "/static/js/2.14cce6d8.chunk.js",
-    "static/js/2.14cce6d8.chunk.js.map": "/static/js/2.14cce6d8.chunk.js.map",
+    "static/js/2.1aa5ce78.chunk.js": "/static/js/2.1aa5ce78.chunk.js",
+    "static/js/2.1aa5ce78.chunk.js.map": "/static/js/2.1aa5ce78.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7a3a27acdac0dfd0dba4ed6a8910e0df.js": "/precache-manifest.7a3a27acdac0dfd0dba4ed6a8910e0df.js",
+    "precache-manifest.b2945093b399110f95f0d713b78e256d.js": "/precache-manifest.b2945093b399110f95f0d713b78e256d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.47f7e764.chunk.css.map": "/static/css/main.47f7e764.chunk.css.map",
@@ -22,9 +22,10 @@
     "static/media/codgames.png": "/static/media/codgames.48d2ffe6.png",
     "static/media/coursesit.png": "/static/media/coursesit.789e0643.png",
     "static/media/foody.png": "/static/media/foody.18ad1742.png",
-    "static/media/instalar.png": "/static/media/instalar.2e6f76a7.png",
+    "static/media/instalar.png": "/static/media/instalar.46a82a3e.png",
     "static/media/Banner.scss": "/static/media/portafolio-banner.dfc6bd96.jpg",
     "static/media/profile.jpg": "/static/media/profile.2766256e.jpg",
+    "static/media/vscode.png": "/static/media/vscode.9e8b26eb.png",
     "static/media/vuegames.png": "/static/media/vuegames.6c2ade02.png"
   }
 }

@@ -1,0 +1,120 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard-with-typescript",
+        "plugin:react/all"
+    ],
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "space-before-function-paren": "off",
+        "no-tabs": [
+            "error",
+            {
+                "allowIndentationTabs": true
+            }
+        ],
+        "@typescript-eslint/semi": [
+            "error",
+            "always"
+        ],
+        "@typescript-eslint/member-delimiter-style": [
+            "error",
+            {
+                "multiline": {
+                    "delimiter": "semi",
+                    "requireLast": true
+                }
+            }
+        ],
+        "@typescript-eslint/comma-dangle": [
+            "warn",
+            {
+                "objects": "always",
+                "generics": "ignore"
+            }
+        ],
+        "@typescript-eslint/space-before-function-paren": "off",
+        "@typescript-eslint/no-invalid-void-type": "off",
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                "selector": "interface",
+                "format": [
+                    "StrictPascalCase"
+                ]
+            },
+            {
+                "selector": "enum",
+                "prefix": [
+                    "E"
+                ],
+                "format": [
+                    "StrictPascalCase"
+                ]
+            }
+        ],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        ],
+        "react/jsx-props-no-spreading": [
+            "error",
+            {
+                "custom": "ignore"
+            }
+        ],
+        "react/jsx-indent": [
+            "error",
+            2
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            2
+        ],
+        "react/jsx-newline": [
+            "error",
+            {
+                "prevent": true
+            }
+        ],
+        "react/function-component-definition": [
+            "error",
+            {
+                "namedComponents": [
+                    "arrow-function",
+                    "function-declaration",
+                    "function-expression"
+                ]
+            }
+        ],
+        "react/jsx-no-bind": [
+            "error",
+            {
+                "allowArrowFunctions": true
+            }
+        ],
+        "react/jsx-max-depth": "off"
+    },
+    "ignorePatterns": [
+        "./vite.config.ts"
+    ]
+}

@@ -22,7 +22,13 @@ module.exports = {
         secondary: '#2D2E32',
         'dark-grey': '#22232A',
         'light-grey': '#B6B6B8',
-        accent: '#00A19C'
+        accent: '#00A19C',
+        'light-secondary': '#494952',
+        react: '#00D8FF',
+        javascript: '#F7DF1E',
+        typescript: '#3178C6',
+        sass: '#CD6799',
+        git: '#DE4C36',
       },
       screens: {
         xsm: '375px',

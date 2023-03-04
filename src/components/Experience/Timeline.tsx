@@ -6,11 +6,14 @@ interface Props<T> {
 
 export const Timeline = <T, >({ data, renderItem, keyExtractor, }: Props<T>): JSX.Element => {
   return (
-    <div>
+    <>
       {data.map((item) => (
         <div
-          className='
-            relative h-full border-l border-dashed mb-10
+          key={keyExtractor(item)}
+        >
+          <div
+            className='
+            relative border-l border-dashed mb-10
             after:h-3 after:w-3 after:bg-main after:absolute
             after:left-0 after:-translate-x-2/4
             after:rounded-full
@@ -18,11 +21,11 @@ export const Timeline = <T, >({ data, renderItem, keyExtractor, }: Props<T>): JS
             before:left-0 before:-translate-x-2/4
             before:rounded-full
           '
-          key={keyExtractor(item)}
-        >
-          {renderItem(item)}
+          >
+            {renderItem(item)}
+          </div>
         </div>
       ))}
-    </div>
+    </>
   );
 };

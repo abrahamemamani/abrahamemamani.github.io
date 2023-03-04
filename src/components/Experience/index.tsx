@@ -35,12 +35,12 @@ const experiences: ExperienceProps[] = [
 
 export const Experiences = (): JSX.Element => {
   return (
-    <section className='container text-center py-3'>
+    <section className='container py-3 lg:py-10 m-auto'>
       <SectionHeading
         description={EExperience.description}
         title={EExperience.title}
       />
-      <div className='py-5'>
+      <div className='py-5 lg:grid lg:grid-cols-2 lg:gap-4'>
         <Experiences.Timeline
           data={experiences}
           keyExtractor={(item) => item.company}

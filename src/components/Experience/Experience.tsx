@@ -21,14 +21,14 @@ export const Experience = ({
   const renderHardSkills = hardSkills.map(hard => Techs[hard]).join(', ').concat('.');
 
   return (
-    <div className='text-white text-left pl-8'>
-      <h2 className='font-medium text-xl'>
+    <article className='text-white text-left pl-8'>
+      <h2 className='font-medium text-xl lg:text-2xl'>
         {role}
       </h2>
-      <h3 className='mb-2 text-main'>
+      <h3 className='mb-2 text-main lg:text-xl'>
         {company}
       </h3>
-      <ul className='text-light-grey pl-4 mb-2'>
+      <ul className='text-light-grey pl-4 mb-2 lg:text-lg'>
         {softSkills.map(softSkill => (
           <li
             className='list-disc'
@@ -38,11 +38,11 @@ export const Experience = ({
           </li>))}
       </ul>
       <span>
-        <span className='text-main'>
+        <span className='text-main lg:text-lg'>
           { EExperience.skills }
         </span>
         {renderHardSkills}
       </span>
-    </div>
+    </article>
   );
 };

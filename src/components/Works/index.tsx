@@ -4,7 +4,7 @@ import { SectionHeading } from '@components';
 
 export const Works = (): JSX.Element => {
   return (
-    <section className='container text-center py-3'>
+    <section className='container py-3 lg:py-10 m-auto'>
       <SectionHeading
         description={EWorks.description}
         title={EWorks.title}

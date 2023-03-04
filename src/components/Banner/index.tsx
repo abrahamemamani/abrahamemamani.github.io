@@ -3,9 +3,11 @@ import { Photo } from './Photo';
 
 export const Banner = (): JSX.Element => {
   return (
-    <section className='bg-secondary py-3'>
+    <section className='container m-auto grid xl:grid-cols-2 bg-secondary py-3'>
       <Banner.Description />
-      <Banner.Photo />
+      <div className='flex justify-center'>
+        <Banner.Photo />
+      </div>
     </section>
   );
 };

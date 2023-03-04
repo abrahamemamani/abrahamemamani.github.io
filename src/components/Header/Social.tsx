@@ -1,6 +1,7 @@
 import FrontendMentor from '@assets/frontendmentor.svg';
 import GitHub from '@assets/github.svg';
 import LinkedIn from '@assets/linkedin.svg';
+import Gmail from '@assets/gmail.svg';
 
 interface SocialProps {
   link: string;
@@ -9,6 +10,11 @@ interface SocialProps {
 }
 
 const socialLinks: SocialProps[] = [
+  {
+    link: 'mailto:abraham.e.mamani@gmail.com?subject=Interesado/a%20en%20tu%20perfil',
+    src: Gmail,
+    alt: 'Contact me',
+  },
   {
     link: 'https://www.frontendmentor.io/profile/abrahamemamani',
     src: FrontendMentor,

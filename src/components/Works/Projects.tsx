@@ -1,9 +1,17 @@
 import PlayerPager from '@assets/projects/playerpager.png';
 import Rewardr from '@assets/projects/rewardr.png';
 import Survey from '@assets/projects/survey.png';
+import Plans from '@assets/projects/plans.png';
 import { Project, ProjectProps } from './Project';
 
 const projects: ProjectProps[] = [
+  {
+    name: 'Plans',
+    description: 'Plataforma web responsive para gestionar documentos, directorios y contactos.',
+    link: '',
+    src: Plans,
+    tags: [1, 3, 5, 6, 7, 12, 13, 14],
+  },
   {
     name: 'Rewardr/Cheque Puntos',
     description: 'Aplicación móvil que le permite a los usuarios ver todas sus transacciones y canjear sus puntos por beneficios exclusivos.',
@@ -28,8 +36,9 @@ const projects: ProjectProps[] = [
 ];
 
 export const Projects = (): JSX.Element => {
-  const renderProjects = projects.map((project) => (
+  const renderProjects = projects.map((project, index) => (
     <Project
+      even={(index % 2) === 0}
       item={project}
       key={project.name}
     />

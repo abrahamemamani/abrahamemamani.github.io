@@ -10,6 +10,12 @@ export enum ELogo {
   lastName = 'Mamani'
 };
 
+export enum ELevel {
+  proficient = 'Competente',
+  advanced = 'Avanzado',
+  excellent = 'Excelente'
+}
+
 export enum EWorks {
   title = 'Últimos trabajos',
   description = 'Casos de éxito con excelentes resultados'
@@ -19,6 +25,20 @@ export enum EExperience {
   title = 'Mi experiencia',
   description = 'Algunos detalles sobre mi experiencia y skills',
   skills = 'Skills: '
+}
+
+export enum ESkills {
+  title = 'Mis skills',
+  description = 'Mis habilidades más destacadas como desarrollador'
+}
+
+export enum EKeyColors {
+  React = 'react',
+  Javascript = 'javascript',
+  Typescript = 'typescript',
+  Sass = 'sass',
+  Git = 'git',
+  Main = 'main'
 }
 
 export const Techs: Record<number, string> = {
@@ -39,4 +59,15 @@ export const Techs: Record<number, string> = {
   15: 'JQuery',
   16: 'PHP',
   17: 'MySQL',
+  18: 'Actitud',
+  19: 'CSS',
 };
+
+export const enum EBreakpoints {
+  XS = 375,
+  SM = 640,
+  MD = 768,
+  LG = 1024,
+  XL = 1280,
+  XXL = 1536
+}

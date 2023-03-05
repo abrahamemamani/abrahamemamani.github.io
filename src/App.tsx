@@ -1,8 +1,9 @@
-import { Experiences, Header, Banner, Works, Skills } from '@components';
+import { Experiences, Header, Banner, Works, Skills, Contact } from '@components';
 
 function App (): JSX.Element {
   return (
     <div className="app h-full bg-secondary">
+      <Contact />
       <Header />
       <Banner />
       <Skills />

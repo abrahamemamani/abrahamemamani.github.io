@@ -1,7 +1,6 @@
 import FrontendMentor from '@assets/frontendmentor.svg';
 import GitHub from '@assets/github.svg';
 import LinkedIn from '@assets/linkedin.svg';
-import Gmail from '@assets/gmail.svg';
 
 interface SocialProps {
   link: string;
@@ -11,14 +10,9 @@ interface SocialProps {
 
 const socialLinks: SocialProps[] = [
   {
-    link: 'mailto:abraham.e.mamani@gmail.com?subject=Interesado/a%20en%20tu%20perfil',
-    src: Gmail,
-    alt: 'Contact me',
-  },
-  {
-    link: 'https://www.frontendmentor.io/profile/abrahamemamani',
-    src: FrontendMentor,
-    alt: 'FrontendMentor logo image',
+    link: 'https://www.linkedin.com/in/abraham-mamani-2a3571142/',
+    src: LinkedIn,
+    alt: 'LinkedIn logo image',
   },
   {
     link: 'https://github.com/abrahamemamani',
@@ -26,9 +20,9 @@ const socialLinks: SocialProps[] = [
     alt: 'GitHub logo image',
   },
   {
-    link: 'https://www.linkedin.com/in/abraham-mamani-2a3571142/',
-    src: LinkedIn,
-    alt: 'LinkedIn logo image',
+    link: 'https://www.frontendmentor.io/profile/abrahamemamani',
+    src: FrontendMentor,
+    alt: 'FrontendMentor logo image',
   }
 ];
 
@@ -49,7 +43,7 @@ export const Social = (): JSX.Element => {
   ));
 
   return (
-    <div className='flex gap-4'>
+    <div className='flex gap-4 lg:gap-6'>
       { renderLinks }
     </div>
   );

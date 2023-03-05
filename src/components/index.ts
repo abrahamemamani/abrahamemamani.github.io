@@ -4,3 +4,4 @@ export * from '@components/Works/';
 export * from '@components/Experience/';
 export * from '@components/SectionHeading';
 export * from '@components/Skills/';
+export * from '@components/Contact/';

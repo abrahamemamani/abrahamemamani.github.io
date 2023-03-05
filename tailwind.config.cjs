@@ -29,6 +29,7 @@ module.exports = {
         typescript: '#3178C6',
         sass: '#CD6799',
         git: '#DE4C36',
+        'darker': '#27282C'
       },
       screens: {
         xsm: '375px',

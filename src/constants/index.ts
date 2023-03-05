@@ -1,3 +1,10 @@
+export enum EContact {
+  Hiring = 'Escucho ofertas, podes ',
+  Download = 'descargar mi CV',
+  Email = 'abraham.e.mamani@gmail.com',
+  Phone = '1157177548'
+}
+
 export enum EBanner {
   greeting = 'Hola, soy',
   name = 'Abraham Mamani',

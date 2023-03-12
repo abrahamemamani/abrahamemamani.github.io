@@ -28,6 +28,11 @@ export enum EWorks {
   description = 'Casos de éxito con excelentes resultados'
 }
 
+export enum ECertificates {
+  title = 'Mis certificados',
+  description = 'Algunos cursos que realicé para crecer profesionalmente'
+}
+
 export enum EExperience {
   title = 'Mi experiencia',
   description = 'Algunos detalles sobre mi experiencia y skills',

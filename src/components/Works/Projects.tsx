@@ -21,7 +21,7 @@ const projects: ProjectProps[] = [
   },
   {
     name: 'PlayerPager',
-    description: 'Una red social para atletas de secundaria donde cada jugador muestra su talento e interactuar con entrenadores y buscadores de talento.',
+    description: 'Una red social para atletas de secundaria donde cada jugador muestra su talento e interactúa con entrenadores y buscadores de talento.',
     link: 'https://consultr.net/success-stories/player-pager/',
     src: PlayerPager,
     tags: [2, 4, 5, 7, 8, 9],

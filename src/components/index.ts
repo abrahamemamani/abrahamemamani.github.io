@@ -5,3 +5,4 @@ export * from '@components/Experience/';
 export * from '@components/SectionHeading';
 export * from '@components/Skills/';
 export * from '@components/Contact/';
+export * from '@components/Certificates/';

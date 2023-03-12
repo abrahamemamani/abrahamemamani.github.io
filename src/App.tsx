@@ -1,4 +1,4 @@
-import { Experiences, Header, Banner, Works, Skills, Contact } from '@components';
+import { Experiences, Header, Banner, Works, Skills, Contact, Certificates } from '@components';
 
 function App (): JSX.Element {
   return (
@@ -8,6 +8,7 @@ function App (): JSX.Element {
       <Banner />
       <Skills />
       <Works />
+      <Certificates />
       <Experiences />
     </div>
   );
